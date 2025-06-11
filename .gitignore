@@ -1,0 +1,99 @@
+# Node modules
+node_modules/
+
+# Yarn / npm logs
+yarn-error.log
+npm-debug.log
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Expo
+.expo/
+.expo-shared/
+
+# React Native Packager
+/metro-cache/
+/react-native-packager-cache-*/
+.haste-map-*
+
+# Babel cache
+babel.config.js
+babel.config.json
+.cache/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/.cxx/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/DerivedData/
+ios/.xcworkspace/
+ios/*.xcuserstate
+ios/*.xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+
+# Buck build system (if used)
+buck-out/
+\.buckd/
+*.keystore
+
+# NPM / Yarn lock (optional: ignore only if your team doesn’t use lockfiles)
+# package-lock.json
+# yarn.lock
+
+# Environment
+.env
+.env.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+coverage/
+tmp/
+temp/
+
+# Android build artifacts
+android/app/build/
+android/build/
+*.apk
+*.aar
+
+# React Native build intermediates
+*.so
+
+# macOS / Linux
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Others
+*.log
+
+# Ignore build artifacts
+android/app/build/
+**/build/
+*.apk
+*.so
+*.obj
+
+# Node modules
+node_modules/

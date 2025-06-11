@@ -1,0 +1,7 @@
+/home/teemu/dev/Ros2-Utility-Application/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt
+/home/teemu/dev/RosApp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt
+/home/teemu/dev/RosApp/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt
+/home/teemu/dev/RosApp/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt
+/home/teemu/dev/RosApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt
+/home/teemu/dev/RosApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt
+/home/teemu/dev/RosApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt

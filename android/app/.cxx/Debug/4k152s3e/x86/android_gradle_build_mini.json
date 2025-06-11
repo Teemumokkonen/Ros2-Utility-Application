@@ -1,0 +1,85 @@
+{
+  "buildFiles": [
+    "/home/teemu/dev/RosApp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/home/teemu/dev/RosApp/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/home/teemu/dev/RosApp/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+    "/home/teemu/dev/RosApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+    "/home/teemu/dev/RosApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+    "/home/teemu/dev/RosApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/home/teemu/dev/RosApp/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/teemu/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/teemu/dev/RosApp/android/app/.cxx/Debug/4k152s3e/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/teemu/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/teemu/dev/RosApp/android/app/.cxx/Debug/4k152s3e/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d": {
+      "artifactName": "react_codegen_RNVectorIconsSpec",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnreanimated::@8afabad14bfffa3f8b9a": {
+      "artifactName": "react_codegen_rnreanimated",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "artifactName": "react_codegen_safeareacontext",
+      "abi": "x86",
+      "output": "/home/teemu/dev/RosApp/android/app/build/intermediates/cxx/Debug/4k152s3e/obj/x86/libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "/home/teemu/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+      ]
+    },
+    "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
+      "artifactName": "react_codegen_rngesturehandler_codegen",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "artifactName": "react_codegen_rnscreens",
+      "abi": "x86",
+      "output": "/home/teemu/dev/RosApp/android/app/build/intermediates/cxx/Debug/4k152s3e/obj/x86/libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "artifactName": "appmodules",
+      "abi": "x86",
+      "output": "/home/teemu/dev/RosApp/android/app/build/intermediates/cxx/Debug/4k152s3e/obj/x86/libappmodules.so",
+      "runtimeFiles": [
+        "/home/teemu/dev/RosApp/android/app/build/intermediates/cxx/Debug/4k152s3e/obj/x86/libreact_codegen_safeareacontext.so",
+        "/home/teemu/dev/RosApp/android/app/build/intermediates/cxx/Debug/4k152s3e/obj/x86/libreact_codegen_rnscreens.so",
+        "/home/teemu/dev/RosApp/android/app/build/intermediates/cxx/Debug/4k152s3e/obj/x86/libreact_codegen_rnsvg.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+      ]
+    },
+    "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65": {
+      "artifactName": "react_codegen_rnsvg",
+      "abi": "x86",
+      "output": "/home/teemu/dev/RosApp/android/app/build/intermediates/cxx/Debug/4k152s3e/obj/x86/libreact_codegen_rnsvg.so",
+      "runtimeFiles": [
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/16ecd3d905ee83882a5c0ce77c8c6dc3/transformed/react-android-0.79.3-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/teemu/.gradle/caches/8.13/transforms/72cde7dc85b5006383f56c98fcfedfa5/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    }
+  }
+}
