@@ -1,4 +1,4 @@
-# Install script for directory: /home/teemu/dev/RosApp/node_modules/react-native-safe-area-context/android/src/main/jni
+# Install script for directory: /home/teemu/dev/Ros2-Utility-Application/node_modules/react-native-safe-area-context/android/src/main/jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

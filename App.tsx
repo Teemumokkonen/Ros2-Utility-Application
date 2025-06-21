@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StatusBar, useColorScheme, Text, TouchableOpacity, Image, StyleSheet} from 'react-native';
+import { View, StatusBar, useColorScheme, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -45,43 +45,43 @@ const App: React.FC = () => {
 
   return (
 
-      <RosProvider>
-        <View style={[backgroundStyle, { flex: 1 }]}>
-          <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} backgroundColor={backgroundStyle.backgroundColor} />
-          <NavigationContainer>
-            <Drawer.Navigator
-              screenOptions={{
-                headerShown: false,
-                drawerActiveTintColor: '#e91e63',
-                drawerItemStyle: { marginVertical: 10 },
+    <RosProvider>
+      <View style={[backgroundStyle, { flex: 1 }]}>
+        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} backgroundColor={backgroundStyle.backgroundColor} />
+        <NavigationContainer>
+          <Drawer.Navigator
+            screenOptions={{
+              headerShown: false,
+              drawerActiveTintColor: '#e91e63',
+              drawerItemStyle: { marginVertical: 10 },
+            }}
+          >
+            <Drawer.Screen
+              key={0}
+              name="Connection"
+              component={createStack(RosConnection)}
+              options={{
+                drawerIcon: ({ color, size }) => (
+                  <MaterialCommunityIcons name="connection" color={color} size={size} />
+                ),
+                title: 'Connection',
               }}
-            >
+            />
+            {DrawerItems.map((drawer, index) => (
               <Drawer.Screen
-                key={0}
-                name="Connection"
-                component={createStack(RosConnection)}
+                key={index}
+                name={drawer.name}
+                component={createStack(drawer.component)}
                 options={{
-                  drawerIcon: ({ color, size }) => (
-                    <MaterialCommunityIcons name="connection" color={color} size={size} />
-                  ),
-                  title: 'Connection',
+                  drawerIcon: drawer.icon,
+                  title: drawer.name,
                 }}
               />
-              {DrawerItems.map((drawer, index) => (
-                <Drawer.Screen
-                  key={index}
-                  name={drawer.name}
-                  component={createStack(drawer.component)}
-                  options={{
-                    drawerIcon: drawer.icon,
-                    title: drawer.name,
-                  }}
-                />
-              ))}
-            </Drawer.Navigator>
-          </NavigationContainer>
-        </View>
-      </RosProvider>
+            ))}
+          </Drawer.Navigator>
+        </NavigationContainer>
+      </View>
+    </RosProvider>
   );
 };
 

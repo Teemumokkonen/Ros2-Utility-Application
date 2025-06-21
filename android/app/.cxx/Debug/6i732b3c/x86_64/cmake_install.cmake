@@ -50,6 +50,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/rnscreens_autolinked_build/cmake_install.cmake")
   include("/home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/rnsvg_autolinked_build/cmake_install.cmake")
   include("/home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNVectorIconsSpec_autolinked_build/cmake_install.cmake")
+  include("/home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNCWebViewSpec_autolinked_build/cmake_install.cmake")
 
 endif()
 

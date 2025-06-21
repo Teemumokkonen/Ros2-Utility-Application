@@ -1,4 +1,4 @@
-# Install script for directory: /home/teemu/dev/RosApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni
+# Install script for directory: /home/teemu/dev/Ros2-Utility-Application/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

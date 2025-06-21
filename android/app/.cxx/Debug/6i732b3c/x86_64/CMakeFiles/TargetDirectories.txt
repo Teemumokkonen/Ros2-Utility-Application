@@ -19,3 +19,6 @@
 /home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir
 /home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/edit_cache.dir
 /home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/rebuild_cache.dir
+/home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNCWebViewSpec_autolinked_build/CMakeFiles/react_codegen_RNCWebViewSpec.dir
+/home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNCWebViewSpec_autolinked_build/CMakeFiles/edit_cache.dir
+/home/teemu/dev/Ros2-Utility-Application/android/app/.cxx/Debug/6i732b3c/x86_64/RNCWebViewSpec_autolinked_build/CMakeFiles/rebuild_cache.dir
